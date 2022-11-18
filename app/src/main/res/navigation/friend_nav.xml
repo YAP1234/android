@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/friend_nav"
+    app:startDestination="@id/friendHome">
+    <fragment
+        android:id="@+id/friendHome"
+        android:name="com.example.navigationui.FriendHome"
+        android:label="FriendHome" />
+    <fragment
+        android:id="@+id/bestFriendList"
+        android:name="com.example.navigationui.BestFriendList"
+        android:label="BestFriendList" />
+    <fragment
+        android:id="@+id/blockList"
+        android:name="com.example.navigationui.BlockList"
+        android:label="BlockList" />
+</navigation>

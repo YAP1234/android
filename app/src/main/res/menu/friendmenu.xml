@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/blockList"
+        android:title="차단목록" />
+    <item
+        android:id="@+id/bestFriendList"
+        android:title="친한친구목록" />
+</menu>
